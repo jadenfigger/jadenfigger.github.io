@@ -1,27 +1,18 @@
-<!--Jaden Figger-->
-<!--Assignment Html02-->
+<!-- Jaden Figger -->
+<!-- Assignment Html02-->
 <!--1/04/2022-->
 
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 		<link rel="icon" type="image/x-icon" href="hamilton_favicon.jpeg">
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<h1 class="comments">Jaden Figger</h1>
-		<h3 class="comments">HTML 02</h3>
-		<h4 class="comments">January 19, 2022</h4>
-
-		<div class="game2048">
-			<div class="gameUI">
-				<h2 id="score">Score: 0</h2>
-				<button id="sButton">Start Game</button>
-			</div>
-
-			<canvas id="myCanvas" width="720" height="720"></canvas>
-		</div>
-
-
+		<h1 id="title" >Hello, I'm Jaden</h1>
 		<h2>Evit Email Address</h2>
 		<a href="jfigg350@evit.com">Jaden Figger</a>
 
@@ -36,14 +27,64 @@
 		    Google or Intel, as that has always been my dream.</p>
 
 		<h2>Personal Interest</h2>
-		<img src="piano.jpg">
 		
 		<h2>My High School</h2>
 		<a href="https://www.cusd80.com/HHS">Hamilton High School</a>
 
-	
-		<script src="script.js"></script>
-		<link rel="stylesheet" href="style.css">
+
+			
+	<!-- First Parallax Section -->
+	<div class="jumbotron paral paralsec">
+		<h1 class="display-3 title">Hello, I'm Jaden</h1>
+		</div>
+		
+		<!-- Second Parallax Section -->
+		<div class="jumbotron paral paralsec1">
+		<h1 class="display-3">About Me</h1>
+		<p class="lead" onmouseover="style='background: rgba(0, 0, 0, 0.4)'" onmouseout="style='background: none'">I am a currently senior in highschool attending Hamilton high and East Valley Institute of Technonlogy(EVIT) 
+			where I am taking the software and mobile app design class. After highschool I am going to attend Arizona State Unviersity
+			where I will be majoring in computer science. My plans for after college include working for a large tech company, such as
+		    Google or Intel, as that has always been my dream</p>
+		<p">Past Projects</p>
+		<div class=container> 
+			<div class="col" onmouseover="style='background: rgba(0, 0, 0, 0.4)'" onmouseout="style='background: none'">
+				<h2>2048 Clone</h2>
+				<p style="font-size: 22px; padding: 0 0;">I created a clone of the popular game 2048 using Html, Css, and Javascript. The project features a fully function game with a score and best score counter.</p>
+			</div>
+			<div class="col" onmouseover="style='background: rgba(0, 0, 0, 0.4)'" onmouseout="style='background: none'">
+				<h2>Fantasy Football Manager</h2>
+				<p style="font-size: 22px;">I created a clone of the popular game 2048 using Html, Css, and Javascript. The project features a fully function game with a score and best score counter.</p>
+			</div>
+			<div class="col" onmouseover="style='background: rgba(0, 0, 0, 0.4)'" onmouseout="style='background: none'">
+				<h2>Ti-Tac-Toe w/ AI Solver</h2>
+				<p style="font-size: 22px;">I created a clone of the popular game 2048 using Html, Css, and Javascript. The project features a fully function game with a score and best score counter.</p>
+			</div>
+
+		</div>
+		</p>
+		</div>
+		
+		<!-- Third Parallax Section -->
+		<div class="jumbotron paral paralsec2">
+		<h1 class="display-3" onmouseover="this.className='myMouseOverClass'" onmouseout="this.className=''">Here is a heading 3</h1>
+		<p class="lead" onmouseover="this.className='myMouseOverClass'" onmouseout="this.className=''">Here is a short description 2</p>
+		<p class="lead">
+		<a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Here is a button 3</a>
+		</p>
+		</div>
+		
+		<!-- Add More Parallax Sections Here -->
+		<!-- Footer Section -->
+		<footer class="wn-footer">
+		<p>Email Addresses:</p>
+		<p><a href="mailto:jadenfigger@gmail.com">Personal</a></p>
+		<p><a href="jfigg350@evit.com">Evit</a></p>
+		<p><a href="s394180@gse.cusd80.com">Home School</a></p>
+		<p><a href="#title" style="color: #40311F;">Back to top</a></p>
+		</footer>
+
+		<script src="js/script.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 
 	</body>
 </html>

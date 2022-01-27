@@ -1,0 +1,78 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.myMouseOverClass
+{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Header Parallax Element Style*/ 
+.paral {
+	min-height: 1200px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	}
+	
+/* Paragrapgh for Parallax Section */ 
+.paral p {
+	font-size: 30px;
+	padding: 50px 200px;
+	color:#f5f5f5;
+	text-align: center;
+	line-height: 60px;
+}
+
+/* Heading for Parallax Section */ 
+.paral h1 {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 60px;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 60px;
+	line-height: 100px;
+}
+
+
+.paral .title  {
+	padding-top: 100px;
+	font-size: 100px;
+}
+
+/* Image for Parallax Section */ 
+.paralsec {
+	background-image: url("../img/spaceAstronaut.jpg");
+}
+.paralsec1 {
+	background-image: url("../img/jupiter.jpg");}
+
+.paralsec2 {
+	background-image: url("../img/piano.jpg");
+} 
+
+
+.jumbotron{
+	margin-bottom: 0;
+}
+
+.col {
+	width: 33%;
+	margin: 0 0;
+	float: left;
+}
+
+/* Footer */
+.wn-footer {
+	padding: 2.5rem 0;
+	text-align: center;
+	color: white;
+	background-color: #607D8B;
+	border-top: .05rem solid #e5e5e5;
+}
+
+
+.wn-footer p {
+	color: yellow;
+	font-size: 1.5em;
+}
