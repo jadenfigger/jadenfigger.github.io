@@ -1,3 +1,26 @@
-h1 {
-	font-family: 'Source Code Pro', monospace;
+.site-wrapper {
+	margin: 0;
+	text-align: center;
+}
+
+.section-title {
+	background-color: #f7484e;
+	width: 50%;
+	float: left;
+	height: 1400px;
+	display: table;
+}
+
+.section-title > h1 {
+	vertical-align: middle;
+	display: table-cell;
+	position: fixed;
+	padding-top: 20%;
+}
+
+
+.section-info {
+	width: 50%;
+	float: right;
+	height: 1400px;
 }
