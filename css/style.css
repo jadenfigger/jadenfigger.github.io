@@ -1,0 +1,22 @@
+canvas{
+	background: #fff;
+	width: 60vw;
+	height: 60vh;
+	display: block;
+	margin: 0 auto;
+}
+input{
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	bottom: 35px;
+	left: calc(50% - 125px);
+	background: none;
+	color: white;
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+	border: 1px solid white;
+	background: rgba(255,255,255,0.2);
+}
