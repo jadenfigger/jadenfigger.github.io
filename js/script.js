@@ -58,7 +58,6 @@ Particle.prototype.render = function() {
 
     
     ctx.fillStyle = this.color;
-    ctx.fillRect(10, 10, 10, 100);
     ctx.fillRect(this.x, this.y, this.r, this.r);
 //  ctx.fill();
 
@@ -76,6 +75,7 @@ Particle.prototype.render = function() {
 }
 
 function onMouseMove(e){
+    console.log(e.clientX, e.clientY);
     mouse.x = e.clientX;
     mouse.y = e.clientY;
 }
