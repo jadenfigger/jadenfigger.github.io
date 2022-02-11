@@ -9,7 +9,7 @@
     <meta name="viewport" content="initial-scale=1">
     <title>Personal Website - Jaden Figger</title>
 
-	<link href="/css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -21,7 +21,7 @@
 
 	<hr class="featurette-divider m-5">
 
-	<div class="container p-2" style="background: rgb(200, 200, 200); border-radius: 10px">
+	<div class="container p-2">
 		<h1 class="text-center">About</h1>
 		<p class="lead p-3 mr-5">I am a currently senior in highschool attending Hamilton high and East Valley Institute of Technonlogy(EVIT) 
 			where I am taking the software and mobile app design class. After highschool I am going to attend Arizona State Unviersity
@@ -31,73 +31,127 @@
 	</div>
 
 	<div class="container p-5">
+		<div class="row">
+			<div class="col">
+				<div class="container p-3" style="border: 1px solid rgb(61, 61, 61); border-radius: 10px">
+					<h2 class="text-center pb-3">Education</h2>
+					<ul>
+						<li>Hamilton High School - Chandler, Arizona</li>
+						<li>East Valley Institute of Technology(EVIT) - Mesa, Arizona</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col">
+				<div class="container p-3" style="border: 1px solid rgb(61, 61, 61); border-radius: 10px">
+					<h2 class="text-center pb-3">Work Experience</h2>
+					<ul>
+						<li>Subway Artist - February 2021 to February 2022 </li>
+						<li>Panera cashier - February 2022 - Current</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr class="featurette-divider">
+
+
+	<div class="container p-5">
 		<h1 class="text-center">Past Projects</h1>
 		<div class="row p-4">
-			<div class="col-sm-4">
-				<h2>2048 Clone</h2>
-				<p>A 2048 clone created in HTML with Javascript and CSS. The clone has all the features of the original game, such as a score/best score counter.</p>			
+			<div class="col">
+				<div class="container m-2 p-4" style="border: 1px solid rgb(61, 61, 61); border-radius: 10px">
+					<h2 class="text-center">2048 Clone in HTML/Javascript</h2>
+					<p>A 2048 clone created in HTML with Javascript and CSS. The clone has all the features of the 
+						original game, such as a score/best score counter. The game uses the local storage, allowing
+						 browser to remember the best score between visits. In future versions of the clone, I plan
+						on creating an AI to play the game, that could achieve a score higher than any human normally 
+						could.</p>	
+					<a href="https://github.com/jadenfigger/2048-Clone" target="_blank">Github</a>		
+				</div>
 			</div>
-			<div class="col-sm-4">
-				<h2>2048 Clone</h2>
-				<p>A 2048 clone created in HTML with Javascript and CSS. The clone has all the features of the original game, such as a score/best score counter.</p>
+			<div class="col">
+				<div class="container m-2 p-4" style="border: 1px solid rgb(61, 61, 61); border-radius: 10px">
+					<h2 class="text-center">Fantasy Football Manager</h2>
+					<div id="fantasyFootballImgs" class="carousel slide mb-4 mt-4" data-bs-ride="carousel">
+						<div class="carousel-inner" style="border: 1px solid #000;">
+						  <div class="carousel-item active">
+							<img src="img/fff1.png" class="d-block w-100" alt="...">
+						  </div>
+						  <div class="carousel-item">
+							<img src="img/fff2.png" class="d-block w-100" alt="...">
+						  </div>
+						  <div class="carousel-item">
+							<img src="img/fff3.png" class="d-block w-100" alt="...">
+						  </div>
+						  <div class="carousel-item">
+							<img src="img/fff4.png" class="d-block w-100" alt="...">
+						  </div>
+						  <div class="carousel-item">
+							<img src="img/fff5.png" class="d-block w-100" alt="...">
+						  </div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#fantasyFootballImgs" data-bs-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#fantasyFootballImgs" data-bs-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Next</span>
+						</button>
+					  </div>
+					<p>A Winforms application that allows the user to manage an NFL fantasy football leauge. 
+						This includes creating teams, adding players to those teams, creating a schedule to 
+						matchup teams against each other. Then you can, with the press of a button, calculate 
+						point totals for those teams for the current week. The program also allows you to view 
+						each fantasy week to see stats about the teams. Some of these stats include each teams 
+						record, average points scored per week, total points scored, and much more.
+					</p>		
+					<a href="https://github.com/jadenfigger/Fantasy-Football-Manage-V2" target="_blank">Github</a>		
+	
+				</div>
 			</div>
-			<div class="col-sm-4">
-				<h2>2048 Clone</h2>
-				<p>A 2048 clone created in HTML with Javascript and CSS. The clone has all the features of the original game, such as a score/best score counter.</p>
-			</div>
+			<div class="col">
+				<div class="container m-2 p-4" style="border: 1px solid rgb(61, 61, 61); border-radius: 10px">
+					<h2 class="text-center">Tic-Tac-Toe w/ Computer AI</h2>
+					<div id="tttImgs" class="carousel slide mb-4 mt-4" data-bs-ride="carousel">
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img src="img/tictactoe1.png" class="d-block w-100" alt="...">
+						  </div>
+						  <div class="carousel-item">
+							<img src="img/tictactoe2.png" class="d-block w-100" alt="...">
+						  </div>
+						  <div class="carousel-item">
+							<img src="img/tictactoe3.png" class="d-block w-100" alt="...">
+						  </div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#tttImgs" data-bs-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#tttImgs" data-bs-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<p>Created in python with the game building library, Pygame, I created a Tic-Tac-Toe clone with a fully
+						function enemy AI and an adjustable board size. The AI uses the minimax algorithm, which simulates all
+						possible future moves to find the best next move. The game board is adjustable, allowing the user to 
+						change the game from 3x3 all the way up to 21x21.
+					</p>			
+					<a href="https://github.com/jadenfigger/Tic-Tac-Toe-w--Tkinter" target="_blank">Github</a>		
+				</div>
 		</div>
 
     	<hr class="featurette-divider">
 
-		<div class="row featurette">
-			<div class="col-md-7">
-				<h2 class="featurette-heading">العنوان الأول المميز. <span class="text-muted"> سيذهل عقلك. </span></h2>
-				<p class="lead">وجه الإنسان هو جزء معقَّد ومتميِّز للغاية من جسمه. وفي الواقع، إنه أحد أكثر أنظمة الإشارات المتاحة تعقيداً لدينا؛ فهو يتضمَّن أكثر من 40 عضلة مستقلة هيكلياً ووظيفياً، بحيث يمكن تشغيل كل منها بشكل مستقل عن البعض الآخر؛ وتشكِّل أحد أقوى مؤشرات العواطف.</p>
-			</div>
-			<div class="col-md-5">
-				<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-			</div>
-		</div>
-
-		<hr class="featurette-divider">
-
-		<div class="row featurette">
-			<div class="col-md-7 order-md-2">
-				<h2 class="featurette-heading">أوه نعم، هذا جيد. <span class="text-muted"> شاهد بنفسك. </span></h2>
-				<p class="lead">عندما نضحك أو نبكي، فإننا نعرض عواطفنا، مما يسمح للآخرين بإلقاء نظرة خاطفة على أذهاننا أثناء "قراءة" وجوهنا بناءً على التغييرات في مكوّنات الوجه الرئيسة، مثل: العينين والحاجبين والجفنين والأنف والشفتين.</p>
-			</div>
-		<div class="col-md-5 order-md-1">
-			<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-		</div>
-	</div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">وأخيرًا، هذا. <span class="text-muted"> كش ملك. </span></h2>
-        <p class="lead">إن جميع العضلات في أجسامنا مدعمة بالأعصاب المتصلة من كافة أنحاء الجسم بالنخاع الشوكي والدماغ. وهذا الاتصال العصبي هو ثنائي الاتجاه، أي إن العصب يتسبَّب في تقلصات العضلات بناءً على إشارات الدماغ، ويقوم في الوقت نفسه بإرسال معلومات عن حالة العضلات إلى الدماغ</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-
-</div>
-
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">عد إلى الأعلى</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">سياسة الخصوصية</a> &middot; <a href="#">شروط الاستخدام</a></p>
-  </footer>
-</main>
+ 		 <!-- FOOTER -->
+		<footer class="container">
+			<p class="float-end"><a href="#">عد إلى الأعلى</a></p>
+			<p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">سياسة الخصوصية</a> &middot; <a href="#">شروط الاستخدام</a></p>
+		</footer>
+	</main>
 
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
